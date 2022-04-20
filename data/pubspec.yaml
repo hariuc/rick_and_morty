@@ -1,0 +1,24 @@
+name: data
+description: A simple command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+
+dependencies:
+  domain:
+    path: ../domain
+
+  freezed: ^1.1.1
+  freezed_annotation: ^1.1.0
+  get_it: ^7.2.0
+  http: ^0.13.4
+
+
+
+dev_dependencies:
+  lints: ^1.0.0
+  build_runner:
+  json_serializable:
